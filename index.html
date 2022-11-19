@@ -22,45 +22,55 @@
 
 <body>
   <section id="title">
-    <div class="container-fluid top-container">
-      <nav class="navbar bg-transparent">
-        <a class="navbar-brand" href="">eatiz</a>
-        <a class="navbar-link" href="">Menu One</a>
-        <a class="navbar-link" href="">Menu Two</a>
-        <a class="navbar-link" href="">Menu Three</a>
-        <a class="navbar-link" href="">Menu Four</a>
-        <button class="navbar-toggler navbar-link" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <img class="user" src="Images/User.jpg" alt="">
-          User
-          <span class="navbar-toggler-icon"><i class="fa-solid fa-caret-down"></i></span>
-        </button>
-        <div class="collapse navbar-collapse justify-end" id="navbarText">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="navbar-link" href="#footer">Profile</a>
-            </li>
-            <li class="nav-item">
-              <a class="navbar-link" href="#pricing">Orders</a>
-            </li>
-            <li class="nav-item">
-              <a class="navbar-link" href="#cta">Log Out</a>
-            </li>
-          </ul>
-        </div>
+    <div class="top-container container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">eatiz</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggler" aria-controls="toggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggler" >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="navbar-link" href="#">Menu One</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-link" href="#">Menu Two</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-link" href="#">Menu Three</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-link" href="#">Menu Four</a>
+              </li>
+              <li class="nav-item">
+                <div class="d-flex justify-content-end">
+                  <a class="navbar-link" href="#"><img class="user" src="Images/User.jpg" alt=""> User </a>
+                </div>
+              </li>
+            </ul>
+          </div>
       </nav>
+
+
+
       <div class="title-text">
-        <h1 class="top-heading">Discover Restaurants </h1>
-        <h1 class="bottom-heading">& Delicious Food</h1>
-        <div class="input-group search">
-          <input type="text" class="form-control" placeholder="Search Restaurant/Food" aria-label="" aria-describedby="basic-addon2">
-          <div class="input-group-append">
-            <button class="btn btn-danger" type="button">Go</button>
+        <div class="row">
+          <div class="col-lg-6 col-sm-8">
+            <h1 class="top-heading">Discover Restaurants </h1>
+            <h1 class="bottom-heading">& Delicious Food</h1>
+            <div class="input-group search">
+              <input type="text" class="form-control" placeholder="Search Restaurant/Food" aria-label="" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-danger" type="button">Go</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4">
+            <img class="title-image" src="Images/food-plate.png" alt="food">
           </div>
         </div>
       </div>
 
-      <img class="title-leaf" src="Images/title-leaf.png" alt="food">
-      <img class="title-image" src="Images/food-plate.png" alt="food">
       <div class="box top-box"></div>
     </div>
   </section>
@@ -103,14 +113,14 @@
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
           </div>
           <div class="card">
-              <img class="card-img-top" src="Images/food.png" alt="">
+            <img class="card-img-top" src="Images/food.png" alt="">
           </div>
 
         </div>
 
         <div class="card">
           <div class="card">
-              <img class="card-img-top" src="Images/Delivery.png" alt="">
+            <img class="card-img-top" src="Images/Delivery.png" alt="">
           </div>
           <div class="card-body">
             <h5 class="card-title">Free Home Delivery</h5>
@@ -130,18 +140,17 @@
     <div class="container-fluid download">
       <div class="box third-box"></div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-8">
           <h2 class=>Download App</h2>
           <h2 class="download-heading">for Exciting Deals</h2>
           <p class="download-text">Loren Impus........</p>
           <button type="button" name="button" class="btn btn-dark btn-lg download-button"><img class="button-left" src="Images/GPlay.png" alt=""></button>
           <button type="button" name="button" class="btn btn-dark btn-lg download-button"><img class="button-right" src="Images/AppStore.png" alt=""></button>
         </div>
-      <div class="col-md-6">
-      <img class="phone" src="Images/Phone.png" alt="">
-        <p> Ewweeee</p>
-    </div>
-  </div>
+        <div class="col-md-4">
+          <img class="phone" src="Images/Phone.png" alt="">
+        </div>
+      </div>
 
     </div>
   </section>
