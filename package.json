@@ -1,0 +1,22 @@
+{
+  "name": "schbang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaf02/Schbang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaf02/Schbang/issues"
+  },
+  "homepage": "https://github.com/Shaf02/Schbang#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
